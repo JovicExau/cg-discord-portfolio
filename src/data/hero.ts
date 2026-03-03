@@ -2,16 +2,16 @@ import { HeroData } from '@/types';
 
 export const heroData: HeroData = {
   name: "Jovic BATA-NGUIMBI",
-  title: "Creative Designer",
-  subtitle: "Animation & Coding",
-  description: "Je suis un designer créatif et développeur web spécialisé dans l'animation et le coding. Avec plus de 10 ans d'expérience, je crée des expériences numériques exceptionnelles qui allient esthétique et fonctionnalité.",
+  title: "Software Engineer",
+  subtitle: "Agile and Coding",
+  description: "Passionné par le développement logiciel, je suis un développeur motivé à concevoir des applications performantes et utiles. Avec une formation académique solide et une première expérience pratique, je souhaite contribuer activement à des projets innovants. Ma curiosité, ma rigueur et ma volonté d'apprentissage continuent me permettent d'évoluer rapidement dans le domaine du développement.",
   email: "jovic.bata@email.com",
-  profileImage: "/images/profile.jpg",
+  profileImage: "/images/new.png",
   backgroundImage: "/images/hero-bg.jpg",
   ctaButtons: {
     primary: {
       text: "Télécharger CV",
-      href: "/cv.pdf",
+      href: "/CV.pdf",
       variant: "primary"
     },
     secondary: {

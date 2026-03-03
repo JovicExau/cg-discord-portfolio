@@ -48,7 +48,7 @@ export function generateContactEmailTemplate(contactData: {
         <p style="white-space: pre-wrap;">${contactData.message}</p>
       </div>
       <p style="color: #6b7280; font-size: 14px;">
-        Message envoyé depuis le portfolio AcZone
+        Message envoyé depuis le portfolio Jovic
       </p>
     </div>
   `;
@@ -64,11 +64,11 @@ Message:
 ${contactData.message}
 
 ---
-Message envoyé depuis le portfolio AcZone
+Message envoyé depuis le portfolio Jovic
   `;
 
   return {
-    to: process.env.NEXT_PUBLIC_EMAIL || 'acZone@email.com',
+    to: process.env.NEXT_PUBLIC_EMAIL || 'jovic@email.com',
     from: contactData.email,
     subject: `Portfolio Contact: ${contactData.subject}`,
     html,

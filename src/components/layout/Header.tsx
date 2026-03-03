@@ -11,9 +11,9 @@ const Header: React.FC = () => {
         {/* Logo */}
         <Link href="/" className="flex items-center space-x-3 group">
           <div className="w-8 h-8 bg-white rounded-lg flex items-center justify-center group-hover:scale-110 transition-transform duration-200">
-            <span className="text-blue-600 font-bold text-lg">A</span>
+            <span className="text-blue-600 font-bold text-lg">J</span>
           </div>
-          <span className="text-xl font-bold">AcZone</span>
+          <span className="text-xl font-bold">Jovic</span>
         </Link>
 
         {/* Desktop Navigation */}

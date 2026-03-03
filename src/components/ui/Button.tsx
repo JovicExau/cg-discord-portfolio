@@ -1,14 +1,16 @@
 import React from 'react';
 import { cn } from '@/lib/utils';
+import LoadingDots from './LoadingDots';
 
 interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
   variant?: 'primary' | 'secondary' | 'outline' | 'ghost';
   size?: 'sm' | 'md' | 'lg';
   children: React.ReactNode;
+  loading?: boolean;
 }
 
 const Button = React.forwardRef<HTMLButtonElement, ButtonProps>(
-  ({ className, variant = 'primary', size = 'md', children, ...props }, ref) => {
+  ({ className, variant = 'primary', size = 'md', children, loading = false, ...props }, ref) => {
     const baseStyles = 'inline-flex items-center justify-center rounded-lg font-medium transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-offset-2 disabled:opacity-50 disabled:pointer-events-none';
     
     const variants = {
@@ -33,9 +35,17 @@ const Button = React.forwardRef<HTMLButtonElement, ButtonProps>(
           className
         )}
         ref={ref}
+        disabled={loading || props.disabled}
         {...props}
       >
-        {children}
+        {loading ? (
+          <>
+            <LoadingDots size="sm" color="text-current" className="mr-2" />
+            Chargement...
+          </>
+        ) : (
+          children
+        )}
       </button>
     );
   }

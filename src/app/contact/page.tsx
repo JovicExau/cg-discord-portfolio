@@ -7,17 +7,17 @@ export default function ContactPage() {
     <div className="min-h-screen bg-gradient-to-br from-gray-900 to-gray-800 py-16">
       <div className="max-w-6xl mx-auto px-6">
         {/* Hero Section */}
-        <div className="text-center mb-12">
+        <div className="text-center mb-12 animate-fade-in">
                       <h1 className="text-4xl font-bold text-white mb-4">
             Contactez-<span className="text-blue-500">Moi</span>
           </h1>
           <p className="text-lg text-gray-300 max-w-3xl mx-auto">
-            Vous avez un projet en tête ? N'hésitez pas à me contacter pour discuter 
+            Vous avez un projet en tête ? N&apos;hésitez pas à me contacter pour discuter 
             de vos besoins et voir comment nous pouvons collaborer.
           </p>
         </div>
 
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 animate-slide-up">
           {/* Contact Info */}
           <div className="space-y-6">
             <div>
@@ -43,7 +43,7 @@ export default function ContactPage() {
                     href="mailto:jovic.bata@email.com"
                     className="text-blue-500 hover:text-blue-400 transition-colors duration-200"
                   >
-                    jovic.bata@email.com
+                    jovicbata045@email.com
                   </a>
                 </div>
               </div>
@@ -58,7 +58,7 @@ export default function ContactPage() {
                     href="tel:+33123456789"
                     className="text-blue-500 hover:text-blue-400 transition-colors duration-200"
                   >
-                    +33 1 23 45 67 89
+                    +242 06 408 40 08
                   </a>
                 </div>
               </div>
@@ -69,7 +69,7 @@ export default function ContactPage() {
                 </div>
                 <div>
                   <h3 className="font-semibold text-white">Localisation</h3>
-                  <p className="text-gray-300">Paris, France</p>
+                  <p className="text-gray-300">Pointe-noire, Republique du Congo</p>
                 </div>
               </div>
             </div>
@@ -79,16 +79,7 @@ export default function ContactPage() {
               <h3 className="font-semibold text-white mb-3">Suivez-moi</h3>
               <div className="flex space-x-3">
                 <a
-                  href="https://linkedin.com/in/aczone"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="w-8 h-8 bg-blue-700 text-white rounded-lg flex items-center justify-center hover:bg-blue-800 transition-colors duration-200"
-                  aria-label="LinkedIn"
-                >
-                  <Icon name="linkedin" size="sm" />
-                </a>
-                <a
-                  href="https://github.com/aczone"
+                  href="https://github.com/JovicExau"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="w-8 h-8 bg-gray-700 text-white rounded-lg flex items-center justify-center hover:bg-gray-600 transition-colors duration-200"
@@ -97,22 +88,13 @@ export default function ContactPage() {
                   <Icon name="github" size="sm" />
                 </a>
                 <a
-                  href="https://twitter.com/aczone"
+                  href="http://www.linkedin.com/in/jovic-bata-nguimbi-153511261"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="w-8 h-8 bg-blue-600 text-white rounded-lg flex items-center justify-center hover:bg-blue-700 transition-colors duration-200"
-                  aria-label="Twitter"
+                  className="w-8 h-8 bg-blue-700 text-white rounded-lg flex items-center justify-center hover:bg-blue-800 transition-colors duration-200"
+                  aria-label="LinkedIn"
                 >
-                  <Icon name="twitter" size="sm" />
-                </a>
-                <a
-                  href="https://dribbble.com/aczone"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="w-8 h-8 bg-pink-600 text-white rounded-lg flex items-center justify-center hover:bg-pink-700 transition-colors duration-200"
-                  aria-label="Dribbble"
-                >
-                  <Icon name="dribbble" size="sm" />
+                  <Icon name="linkedin" size="sm" />
                 </a>
               </div>
             </div>
@@ -123,8 +105,8 @@ export default function ContactPage() {
                 Temps de réponse
               </h3>
               <p className="text-gray-300 text-sm">
-                Je m'efforce de répondre à tous les messages dans les 24 heures. 
-                Pour les demandes urgentes, n'hésitez pas à m'appeler directement.
+                Je m&apos;efforce de répondre à tous les messages dans les 24 heures. 
+                Pour les demandes urgentes, n&apos;hésitez pas à m&apos;appeler directement.
               </p>
             </div>
           </div>

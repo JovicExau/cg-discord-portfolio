@@ -1,10 +1,8 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  experimental: {
-    turbo: {
-      root: "C:\\Users\\invite\\Documents\\Projets\\cg-discord-portfolio"
-    }
+  turbopack: {
+    // Remove turbo.root as it's causing access denied error
   }
 };
 

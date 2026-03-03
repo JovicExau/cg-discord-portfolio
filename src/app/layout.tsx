@@ -15,13 +15,16 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: "Jovic BATA-NGUIMBI Portfolio - Creative Designer & Developer",
-  description: "Portfolio personnel de Jovic BATA-NGUIMBI - Creative Designer, Animation, Coding. Découvrez mes projets créatifs et mes compétences en développement web.",
+  title: "Jovic BATA-NGUIMBI Portfolio - Software Engineer",
+  description: "Portfolio personnel de Jovic BATA-NGUIMBI - Software Engineer. Découvrez mes projets et mes compétences en développement web.",
   keywords: ["portfolio", "designer", "développeur", "web", "animation", "créatif"],
   authors: [{ name: "Jovic BATA-NGUIMBI" }],
+  icons: {
+    icon: "/favicon.ico",
+  },
   openGraph: {
-    title: "Jovic BATA-NGUIMBI Portfolio - Creative Designer & Developer",
-    description: "Portfolio personnel de Jovic BATA-NGUIMBI - Creative Designer, Animation, Coding",
+    title: "Jovic BATA-NGUIMBI Portfolio - Software Engineer",
+    description: "Portfolio personnel de Jovic BATA-NGUIMBI - Software Engineer",
     type: "website",
     locale: "fr_FR",
   },
@@ -42,7 +45,7 @@ export default function RootLayout({
           <Sidebar />
           
           {/* Main Content */}
-          <div className="flex-1">
+          <div className="flex-1 lg:pl-64">
             {/* Page Content */}
             <main className="min-h-screen">
               {children}

@@ -3,53 +3,53 @@ import { Skill } from '@/types';
 export const skills: Skill[] = [
   // Frontend
   {
-    id: 'react',
-    name: 'React',
-    level: 95,
-    category: 'frontend',
-    icon: 'react'
-  },
-  {
     id: 'nextjs',
     name: 'Next.js',
+    level: 85,
+    category: 'frontend',
+    icon: 'nextjs-plain'
+  },
+  {
+    id: 'react',
+    name: 'React.js',
     level: 90,
     category: 'frontend',
-    icon: 'nextjs'
+    icon: 'react-plain'
+  },
+  {
+    id: 'react-native',
+    name: 'React Native',
+    level: 80,
+    category: 'frontend',
+    icon: 'react-plain'
+  },
+  {
+    id: 'angular',
+    name: 'Angular',
+    level: 75,
+    category: 'frontend',
+    icon: 'angularjs-plain'
+  },
+  {
+    id: 'html',
+    name: 'HTML',
+    level: 95,
+    category: 'frontend',
+    icon: 'html5-plain'
+  },
+  {
+    id: 'css',
+    name: 'CSS',
+    level: 90,
+    category: 'frontend',
+    icon: 'css3-plain'
   },
   {
     id: 'typescript',
     name: 'TypeScript',
-    level: 88,
+    level: 80,
     category: 'frontend',
-    icon: 'typescript'
-  },
-  {
-    id: 'tailwind',
-    name: 'Tailwind CSS',
-    level: 92,
-    category: 'frontend',
-    icon: 'tailwind'
-  },
-  {
-    id: 'javascript',
-    name: 'JavaScript',
-    level: 95,
-    category: 'frontend',
-    icon: 'javascript'
-  },
-  {
-    id: 'html',
-    name: 'HTML5',
-    level: 98,
-    category: 'frontend',
-    icon: 'html'
-  },
-  {
-    id: 'css',
-    name: 'CSS3',
-    level: 95,
-    category: 'frontend',
-    icon: 'css'
+    icon: 'typescript-plain'
   },
   
   // Backend
@@ -58,87 +58,96 @@ export const skills: Skill[] = [
     name: 'Node.js',
     level: 85,
     category: 'backend',
-    icon: 'nodejs'
+    icon: 'nodejs-plain'
   },
   {
-    id: 'python',
-    name: 'Python',
-    level: 80,
-    category: 'backend',
-    icon: 'python'
-  },
-  {
-    id: 'mongodb',
-    name: 'MongoDB',
-    level: 75,
-    category: 'backend',
-    icon: 'mongodb'
-  },
-  {
-    id: 'postgresql',
-    name: 'PostgreSQL',
+    id: 'adonis',
+    name: 'Adonis.js',
     level: 70,
     category: 'backend',
-    icon: 'postgresql'
-  },
-  
-  // Design
-  {
-    id: 'figma',
-    name: 'Figma',
-    level: 90,
-    category: 'design',
-    icon: 'figma'
+    icon: 'adonisjs-original'
   },
   {
-    id: 'adobe-xd',
-    name: 'Adobe XD',
-    level: 85,
-    category: 'design',
-    icon: 'adobe-xd'
-  },
-  {
-    id: 'photoshop',
-    name: 'Photoshop',
-    level: 80,
-    category: 'design',
-    icon: 'photoshop'
-  },
-  {
-    id: 'illustrator',
-    name: 'Illustrator',
+    id: 'laravel',
+    name: 'Laravel',
     level: 75,
-    category: 'design',
-    icon: 'illustrator'
-  },
-  {
-    id: 'after-effects',
-    name: 'After Effects',
-    level: 85,
-    category: 'design',
-    icon: 'after-effects'
+    category: 'backend',
+    icon: 'laravel-plain'
   },
   
   // Tools
   {
-    id: 'git',
-    name: 'Git',
-    level: 90,
-    category: 'tools',
-    icon: 'git'
-  },
-  {
     id: 'docker',
     name: 'Docker',
-    level: 70,
+    level: 60,
     category: 'tools',
-    icon: 'docker'
+    icon: 'docker-plain'
   },
   {
-    id: 'vscode',
-    name: 'VS Code',
-    level: 95,
+    id: 'git',
+    name: 'Git',
+    level: 85,
     category: 'tools',
-    icon: 'vscode'
+    icon: 'git-plain'
+  },
+  {
+    id: 'slack',
+    name: 'Slack',
+    level: 80,
+    category: 'tools',
+    icon: 'slack-plain'
+  },
+  {
+    id: 'notion',
+    name: 'Notion',
+    level: 75,
+    category: 'tools',
+    icon: 'Notion-Logo-PNG-File.png'
+  },
+  {
+    id: 'trello',
+    name: 'Trello',
+    level: 70,
+    category: 'tools',
+    icon: 'trello-plain'
+  },
+  {
+    id: 'jira',
+    name: 'Jira',
+    level: 65,
+    category: 'tools',
+    icon: 'jira-plain'
+  },
+  
+  // Conception
+  {
+    id: 'uml',
+    name: 'UML',
+    level: 80,
+    category: 'conception',
+    icon: 'uml-logo.jpg'
+  },
+  {
+    id: 'merise',
+    name: 'Mérise',
+    level: 75,
+    category: 'conception',
+    icon: 'merise.png'
+  },
+  
+  // Pack
+  {
+    id: 'google-workspace',
+    name: 'Google Workspace',
+    level: 85,
+    category: 'pack',
+    icon: 'Google-Workspace-Symbol.png'
+  },
+  {
+    id: 'office',
+    name: 'Office',
+    level: 80,
+    category: 'pack',
+    icon: 'png-transparent-microsoft-office-logo-png.png'
   }
 ];

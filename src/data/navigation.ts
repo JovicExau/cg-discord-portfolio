@@ -14,7 +14,7 @@ export const navigationItems: NavigationItem[] = [
   },
   {
     name: 'Projets',
-    href: '/projects',
+    href: '/projets',
     icon: 'briefcase'
   },
   {
@@ -27,22 +27,12 @@ export const navigationItems: NavigationItem[] = [
 export const socialLinks: SocialLink[] = [
   {
     name: 'LinkedIn',
-    url: 'https://linkedin.com/in/aczone',
+    url: 'http://www.linkedin.com/in/jovic-bata-nguimbi-153511261',
     icon: 'linkedin'
   },
   {
     name: 'GitHub',
-    url: 'https://github.com/aczone',
+    url: 'https://github.com/JovicExau',
     icon: 'github'
-  },
-  {
-    name: 'Twitter',
-    url: 'https://twitter.com/aczone',
-    icon: 'twitter'
-  },
-  {
-    name: 'Dribbble',
-    url: 'https://dribbble.com/aczone',
-    icon: 'dribbble'
   }
 ];

@@ -17,7 +17,7 @@ const Footer: React.FC = () => {
               <span className="text-xl font-bold">Jovic BATA-NGUIMBI</span>
             </div>
             <p className="text-gray-400 text-sm">
-              Designer créatif et développeur web spécialisé dans l'animation et le coding.
+              Designer créatif et développeur web spécialisé dans l&apos;animation et le coding.
             </p>
             <div className="flex space-x-3">
               {socialLinks.map((social) => (
