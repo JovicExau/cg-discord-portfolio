@@ -40,10 +40,10 @@ export default function ContactPage() {
                 <div>
                   <h3 className="font-semibold text-white">Email</h3>
                   <a 
-                    href="mailto:jovic.bata@email.com"
+                    href="mailto:jovicbata045@gmail.com"
                     className="text-blue-500 hover:text-blue-400 transition-colors duration-200"
                   >
-                    jovicbata045@email.com
+                    jovicbata045@gmail.com
                   </a>
                 </div>
               </div>
@@ -55,7 +55,7 @@ export default function ContactPage() {
                 <div>
                   <h3 className="font-semibold text-white">Téléphone</h3>
                   <a 
-                    href="tel:+33123456789"
+                    href="tel:+242064084008"
                     className="text-blue-500 hover:text-blue-400 transition-colors duration-200"
                   >
                     +242 06 408 40 08
